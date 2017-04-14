@@ -69,7 +69,7 @@ def get_products():
 
 
 def save_to_mysql(lst):
-	db = pymysql.connect(host="localhost", user="root", password="zhuyibo?123", db="taobaoshop", charset="utf8")
+	db = pymysql.connect(host="localhost", user="root", password="*******", db="taobaoshop", charset="utf8")
 	start_time2 = time.time()
 	cursor = db.cursor()
 	cursor.execute("DROP TABLE IF EXISTS shops20170328_2")
